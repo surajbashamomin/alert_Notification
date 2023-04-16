@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 46px;
+  font-weight: bold;
+}
+.list-container {
+  width: 40%;
+}
+@media (min-width: 768px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-heading {
+    color: #0f172a;
+    font-family: 'Roboto';
+    font-size: 46px;
+    font-weight: bold;
+  }
+  .list-container {
+    width: 40%;
+  }
+}

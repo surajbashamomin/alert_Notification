@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.list-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.success {
+  background-color: #2dca73;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.error {
+  background-color: #ff0b37;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.warning {
+  background-color: #ffb800;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.info {
+  background-color: #0f81e0;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.heading1 {
+  color: #2dca73;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+}
+.paragraph {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+.heading2 {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+}
+.heading3 {
+  color: #ffb800;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+}
+.heading4 {
+  color: #0f81e0;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+}
+.cancel-icon-container {
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cancel-icon {
+}
